@@ -21,7 +21,8 @@ API REST desenvolvida em ASP.NET Core para gestão de tarefas, com suporte a ope
 - [x] Filtro por data de vencimento (ex: `?dueDate=2025-05-04`)
 - [x] Documentação via Swagger
 
-## 📁 Estrutura do projeto
+### 📁 Estrutura do projeto
+```plaintext
 TasksManager/
 ├── Controllers/
 │   └── TaskController.cs
@@ -32,9 +33,10 @@ TasksManager/
 │   └── TaskRepository.cs
 ├── Database/
 │   └── AppDbContext.cs
-├── Program.cs
+└── Program.cs
+```
 
 ### 📄Acesse a Documentação depois de executar o projeto
 [https://localhost:5001/swagger](https://localhost:7106/swagger/index.html)
 
-🧑‍💻 Desenvolvido por Gabriel João
+🧑‍💻 Desenvolvido por [Gabriel João](https://github.com/gjoao98)
