@@ -6,7 +6,7 @@ API REST desenvolvida em ASP.NET Core para gestão de tarefas, com suporte a ope
 
 - ASP.NET Core 6
 - Entity Framework Core (InMemory)
-- Swagger / Swashbuckle
+- Swagger
 - Injeção de dependência
 - Padrão Repositório
 - Boas práticas SOLID
@@ -21,9 +21,20 @@ API REST desenvolvida em ASP.NET Core para gestão de tarefas, com suporte a ope
 - [x] Filtro por data de vencimento (ex: `?dueDate=2025-05-04`)
 - [x] Documentação via Swagger
 
-## 📦 Como executar
+## 📁 Estrutura do projeto
+TasksManager/
+├── Controllers/
+│   └── TaskController.cs
+├── Models/
+│   └── TaskItem.cs
+├── Repositories/
+│   ├── ITaskRepository.cs
+│   └── TaskRepository.cs
+├── Database/
+│   └── AppDbContext.cs
+├── Program.cs
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/gjoao98/TasksManager-ASP.NET-WEBAPI.git
-   cd TasksManager-ASP.NET-WEBAPI
+## 📄Acesse a Documentação
+https://localhost:5001/swagger
+
+🧑‍💻 Desenvolvido por Gabriel João
